@@ -184,12 +184,12 @@
   "basket": [
     {
       "id": 1,
-      "adet": 6,
       "marka": "XYZ",
       "model": "A1",
       "fiyat": 1500,
       "stokAdedi": 50,
-      "resim": "https://picsum.photos/201"
+      "resim": "https://picsum.photos/201",
+      "adet": 1
     },
     {
       "id": 2,
@@ -198,7 +198,7 @@
       "fiyat": 3000,
       "stokAdedi": 30,
       "resim": "https://picsum.photos/202",
-      "adet": 7
+      "adet": 1
     },
     {
       "id": 3,
@@ -207,7 +207,7 @@
       "fiyat": 150,
       "stokAdedi": 100,
       "resim": "https://picsum.photos/203",
-      "adet": 8
+      "adet": 1
     },
     {
       "id": 4,
@@ -216,52 +216,7 @@
       "fiyat": 500,
       "stokAdedi": 20,
       "resim": "https://picsum.photos/204",
-      "adet": 8
-    },
-    {
-      "id": 5,
-      "marka": "KLM",
-      "model": "E5",
-      "fiyat": 2500,
-      "stokAdedi": 40,
-      "resim": "https://picsum.photos/205",
-      "adet": 1
-    },
-    {
-      "id": 6,
-      "marka": "NOP",
-      "model": "F6",
-      "fiyat": 4000,
-      "stokAdedi": 25,
-      "resim": "https://picsum.photos/206",
-      "adet": 1
-    },
-    {
-      "id": 14,
-      "marka": "QRS",
-      "model": "G7",
-      "fiyat": 120,
-      "stokAdedi": 80,
-      "resim": "https://picsum.photos/207",
-      "adet": 1
-    },
-    {
-      "id": 7,
-      "marka": "TUV",
-      "model": "H8",
-      "fiyat": 800,
-      "stokAdedi": 15,
-      "resim": "https://picsum.photos/208",
-      "adet": 1
-    },
-    {
-      "id": 11,
-      "marka": "GHI",
-      "model": "D12",
-      "fiyat": 150,
-      "stokAdedi": 25,
-      "resim": "https://picsum.photos/212",
-      "adet": 2
+      "adet": 3
     }
   ]
 }

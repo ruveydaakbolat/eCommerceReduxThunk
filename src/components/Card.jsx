@@ -42,7 +42,7 @@ const Card = ({ product }) => {
           className="w-100 bg-black text-white d-flex justify-content-between"
         >
           <span className="text-success">{product.fiyat}₺</span>
-          <span>{found ? "Miktarı Arttır" : "Sepete Ekle"}</span>
+          <span>{found ? `Miktarı Arttır (${found.adet}) ` : "Sepete Ekle"}</span>
         </button>
       </div>
     </div>

@@ -45,4 +45,10 @@ export const updateItem = (product) => (dispatch) => {
     );
 };
 
-export const removeItem = () => (dispatch) => {};
+export const removeItem = (delete_id) => (dispatch) => {
+  axios
+    .delete(`/basket/${delete_id}`)
+    .then(() =>
+      dispatch({ type: ActionTypes.REMOVE_ITEM, payload: delete_id })
+    );
+};
